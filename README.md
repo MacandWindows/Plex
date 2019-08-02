@@ -79,7 +79,7 @@ You can also attempt to skip the installation step, and change the paths in the 
 Assuming that everything else has installed correctly, building KixKan Media Player should now be fairly straightforward:
 
 * ``cd ~/pmp/``
-* ``git clone git://github.com/KixKaninc/KixKan-media-player``
+* ``git clone git://github.com/MacandWindows/Plex``
 * ``cd KixKan-media-player``
 * ``mkdir build``
 * ``cd build``
