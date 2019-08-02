@@ -80,7 +80,7 @@ Assuming that everything else has installed correctly, building KixKan Media Pla
 
 * ``cd ~/pmp/``
 * ``git clone git://github.com/MacandWindows/Plex``
-* ``cd KixKan-media-player``
+* ``cd Plex``
 * ``mkdir build``
 * ``cd build``
 * ``cmake -DCMAKE_BUILD_TYPE=Debug -DQTROOT=/opt/Qt5.9.5/5.9/gcc_64/ -DCMAKE_INSTALL_PREFIX=/usr/local/ ..``
