@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
-Name=Plex Media Player
+Name=KixKan Media Player
 GenericName=Media Player
 Comment=View your media
-Exec=plexmediaplayer --fullscreen --tv
-Icon=plexmediaplayer
+Exec=kixkanmediaplayer --fullscreen --tv
+Icon=kixkanmediaplayer
 Terminal=false
 Type=Application
 Categories=AudioVideo;Video;Player;TV;
@@ -13,12 +13,12 @@ Actions=TV;DesktopF;DesktopW;
 
 [Desktop Action TV]
 Name=TV
-Exec=plexmediaplayer --fullscreen --tv
+Exec=kixkanmediaplayer --fullscreen --tv
 
 [Desktop Action DesktopF]
 Name=Desktop [Fullscreen]
-Exec=plexmediaplayer --fullscreen --desktop
+Exec=kixkanmediaplayer --fullscreen --desktop
 
 [Desktop Action DesktopW]
 Name=Desktop [Windowed]
-Exec=plexmediaplayer --windowed --desktop
+Exec=kixkanmediaplayer --windowed --desktop

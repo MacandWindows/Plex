@@ -35,7 +35,7 @@ Or if you prefer working in Xcode, run CMake for the xcode build):
 
 ## Building on Linux
 
-Plex Media Player officially requires Qt 5.9.5. Our users have indicated that Qt 5.10 and Qt 5.11 also builds correctly. However, Qt 5.11.0 and 5.11.1 versions are _incompatible_ and should be avoided. Qt 5.12 may work for you. Please consider building PMP within a dedicated VM or Docker container if your system has a Qt version installed newer than 5.9.5. Downgrading a system Qt will cause issues in other applications depending on a newer Qt version.
+KixKan Media Player officially requires Qt 5.9.5. Our users have indicated that Qt 5.10 and Qt 5.11 also builds correctly. However, Qt 5.11.0 and 5.11.1 versions are _incompatible_ and should be avoided. Qt 5.12 may work for you. Please consider building PMP within a dedicated VM or Docker container if your system has a Qt version installed newer than 5.9.5. Downgrading a system Qt will cause issues in other applications depending on a newer Qt version.
 
 These instructions are for Ubuntu 16.04 LTS and up. They were tested on a fresh install without extra options and with auto-updates applied.
 
@@ -54,7 +54,7 @@ Systems not based on Debian/Ubuntu will have similar packages, but you'll need t
 
 If your distro provides a Qt 5.9.5 package, try to use it. Otherwise, download a supported Qt version from qt.io.
 
-On Windows and OSX, you can omit the ``-DQTROOT`` argument to use the Qt built by Plex. (Untested whether this works reliably.)
+On Windows and OSX, you can omit the ``-DQTROOT`` argument to use the Qt built by KixKan. (Untested whether this works reliably.)
 
 ### Building mpv and ffmpeg
 
@@ -74,20 +74,20 @@ With this, libmpv should have been installed to ``/usr/local/``. It does not con
 
 You can also attempt to skip the installation step, and change the paths in the PMP build step to the build directory, but this is more complicated.
 
-### Building plex-media-player
+### Building KixKan-media-player
 
-Assuming that everything else has installed correctly, building Plex Media Player should now be fairly straightforward:
+Assuming that everything else has installed correctly, building KixKan Media Player should now be fairly straightforward:
 
 * ``cd ~/pmp/``
-* ``git clone git://github.com/plexinc/plex-media-player``
-* ``cd plex-media-player``
+* ``git clone git://github.com/KixKaninc/KixKan-media-player``
+* ``cd KixKan-media-player``
 * ``mkdir build``
 * ``cd build``
 * ``cmake -DCMAKE_BUILD_TYPE=Debug -DQTROOT=/opt/Qt5.9.5/5.9/gcc_64/ -DCMAKE_INSTALL_PREFIX=/usr/local/ ..``
 * ``make -j4``
 * ``sudo make install``
 
-You should now be able to start PMP as ``plexmediaplayer`` from the terminal.
+You should now be able to start PMP as ``KixKanmediaplayer`` from the terminal.
 
 If you use your distro's Qt, use `-DQTROOT=/usr` or similar.
 
@@ -104,6 +104,6 @@ Sometimes, PMP will pick up SDL 1.x libraries. This is not supported and will le
 
 ## License
 
-Plex Media Player is licensed under GPL v2. See the ``LICENSE`` file.
+KixKan Media Player is licensed under GPL v2. See the ``LICENSE`` file.
 Licenses of dependencies are summarized under ``resources/misc/licenses.txt``.
 This file can also be printed at runtime when using the ``--licenses`` option.

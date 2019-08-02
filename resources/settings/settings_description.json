@@ -495,7 +495,7 @@
     "values": [
         {
           "value": "systemname",
-          "default": "PlexMediaPlayer",
+          "default": "KixKanMediaPlayer",
           "hidden": true,
           "platforms": [ "oe" ]
         },
