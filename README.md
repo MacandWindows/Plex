@@ -44,7 +44,7 @@ First, some preparations:
 * ``sudo apt install autoconf automake libtool libharfbuzz-dev libfreetype6-dev libfontconfig1-dev
     libx11-dev libxrandr-dev libvdpau-dev libva-dev mesa-common-dev libegl1-mesa-dev
     yasm libasound2-dev libpulse-dev libuchardet-dev zlib1g-dev libfribidi-dev git
-    libgnutls28-dev libgl1-mesa-dev libsdl2-dev cmake``
+    libgnutls28-dev libgl1-mesa-dev libsdl2-dev cmake python``
 * ``mkdir pmp``
 * ``cd pmp``
 
